@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+div > article{
+    @apply border-8 border-red-700 border-dashed 
+}
